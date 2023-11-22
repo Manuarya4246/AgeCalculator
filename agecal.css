@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,black,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    animation: textanimation 5s infinite;
+}
+@keyframes textanimation {
+    from{
+        color: white;
+    }
+    to{
+        color: black;
+    }
+}
+.inp{
+    margin-left: 120px;
+}
+input{
+    background-image: linear-gradient(45deg,white,black);
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+button{
+    background-image: linear-gradient(45deg,white,black);
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+#result{
+    font-size: 24px;
+    position: absolute;
+    bottom: 170px;
+    right: 160px;
+    animation: textanimation 5s infinite;
+}
+span{
+    color: blue;
+}
+
